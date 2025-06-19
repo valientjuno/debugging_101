@@ -1,0 +1,29 @@
+p {
+  font-size: larger; /* corrected typo of misspelled largeer */
+}
+
+h1 {
+  font-size: 23xp;
+  color: purple;
+}
+
+.container {
+  color: red;
+  width: 500px;
+  height: 500px;
+  /* background should be the same as #output
+  ||corrected background color to match output||corrected misspelling of color from colro */
+  background-color: #f0f0f0;
+}
+
+#output {
+  color: #000;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #000;
+  background-color: #f0f0f0;
+}
+/* padding had been misspelled in output and was corrected */

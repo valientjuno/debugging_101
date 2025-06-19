@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- corrected link rel in href to correctly load style sheet from css
+ ||renamed style sheet from style(1).css to style.css -->
+
+    <title>Debugging 101</title>
+  </head>
+  <body>
+    <!-- Look at the name of this class, is it in the CSS File? -->
+    <div class="container">
+      <h1>Welcome to Debugging 101!</h1>
+      <p>Let's learn how to debug our code.</p>
+    </div>
+    <!--corrected missing attribute to include missing opening p tag-->
+
+    <input type="text" id="output" placeholder="This is an output" />
+
+    <div>
+      <p>This is a paragraph inside a div.</p>
+      <!-- missing div tag added -->
+    </div>
+
+    <p style="color: red">This text is red.</p>
+    <!-- p style corrected to include style -->
+
+    <!-- React-specific issue with incorrect attribute name -->
+    <div clss="container">Hello World</div>
+    <!-- Console error in React: Unknown DOM property "classnme" -->
+
+    <img src="http://placehold.co/400x400" alt="Example Image" />
+    <!-- corrected img src -->
+
+    <script src="index.js"></script>
+    <!-- script src added  -->
+  </body>
+</html>
