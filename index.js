@@ -2,8 +2,8 @@
 
 // 1. SyntaxError: Unexpected token ';'
 
-console.log("Hello, World!");
-//added elements to correct error from let fucnction to console.log function to operate from start.//
+console.log(greeting);
+// changed "Hello!" to console.log=(greeting)
 
 // 2. ReferenceError: myVariable is not defined
 /*
@@ -25,7 +25,8 @@ Instructions:
     * If you need to use the variable greeting, then use it as a variable, not a function.
 */
 const greeting = "Hello";
-//greeting(); // TypeError: greeting is not a function
+console.log = greeting;
+// added console.log=(greeting)
 
 // 4. TypeError: Cannot read property 'property' of undefined
 /*
