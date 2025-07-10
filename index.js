@@ -11,7 +11,7 @@ Instructions:
 let message = ("message");
 // changed ("Hello world!") to message
 
-//console.log(message; // SyntaxError: Unexpected token ';'
+console.log(message); // SyntaxError: Unexpected token ';'
 
 // 2. ReferenceError: myVariable is not defined
 /*
