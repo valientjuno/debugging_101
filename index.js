@@ -8,10 +8,10 @@ Instructions:
     * Ensure that all statements are properly terminated and that function calls have matching parentheses.
     * Double-check for any missing or extra characters that might be disrupting the code's structure.
 */
-let message = ("message");
-// changed ("Hello world!") to message
+let message = ("Hello World!");
 
-console.log(message); // SyntaxError: Unexpected token ';'
+
+console.log(message); 
 
 // 2. ReferenceError: myVariable is not defined
 /*
