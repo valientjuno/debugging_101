@@ -9,7 +9,7 @@ Instructions:
     * Double-check for any missing or extra characters that might be disrupting the code's structure.
 */
 let message = "Hello, World!";
-//console.log(message; // SyntaxError: Unexpected token ';'
+console.log(message); // SyntaxError: Unexpected token ';'
 
 // 2. ReferenceError: myVariable is not defined
 /*
@@ -19,7 +19,8 @@ Instructions:
     * Verify the spelling of the variable name in both the declaration and the usage.
     * Ensure that the variable is declared before it's used.
 */
-//console.log(myVariable); // ReferenceError: myVariable is not defined
+let myVariable = 20;
+console.log(myVariable); // ReferenceError: myVariable is not defined
 
 // 3. TypeError: greeting is not a function
 /*
@@ -31,7 +32,7 @@ Instructions:
     * If you need to use the variable greeting, then use it as a variable, not a function.
 */
 const greeting = "Hello";
-//greeting(); // TypeError: greeting is not a function
+console.log(greeting); // TypeError: greeting is not a function
 
 // 4. TypeError: Cannot read property 'property' of undefined
 /*
@@ -41,8 +42,8 @@ Instructions:
     * Make sure the variable has been assigned an object before you attempt to access its properties.
     * If you expect the variable to hold an object, you may need to add code that assigns an object to the variable.
 */
-let obj;
-//console.log(obj.property); // TypeError: Cannot read property 'property' of undefined
+let obj = property;
+console.log(obj.property); // TypeError: Cannot read property 'property' of undefined
 
 // 5. Incorrect Object Concatenation
 /*
