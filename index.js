@@ -1,9 +1,17 @@
 // error_instructions.js
 
 // 1. SyntaxError: Unexpected token ';'
+/*
+Instructions:
+    * Carefully examine the line of code where the error occurred.
+    * Pay close attention to punctuation marks, especially semicolons, parentheses, and brackets.
+    * Ensure that all statements are properly terminated and that function calls have matching parentheses.
+    * Double-check for any missing or extra characters that might be disrupting the code's structure.
+*/
+let message = ("message");
+// changed ("Hello world!") to message
 
-console.log(greeting);
-// changed "Hello!" to console.log=(greeting)
+//console.log(message; // SyntaxError: Unexpected token ';'
 
 // 2. ReferenceError: myVariable is not defined
 /*
@@ -14,7 +22,8 @@ Instructions:
     * Ensure that the variable is declared before it's used.
 */
 //console.log(myVariable); // ReferenceError: myVariable is not defined
-
+console.log(message)
+// added console.log(message) for added function
 // 3. TypeError: greeting is not a function
 /*
 Instructions:
@@ -25,8 +34,9 @@ Instructions:
     * If you need to use the variable greeting, then use it as a variable, not a function.
 */
 const greeting = "Hello";
-console.log = greeting;
-// added console.log=(greeting)
+console.log(greeting)
+// added console.log(greeting) for additional function
+0//greeting(); // TypeError: greeting is not a function
 
 // 4. TypeError: Cannot read property 'property' of undefined
 /*
@@ -36,7 +46,10 @@ Instructions:
     * Make sure the variable has been assigned an object before you attempt to access its properties.
     * If you expect the variable to hold an object, you may need to add code that assigns an object to the variable.
 */
-let obj;
+let obj=(object);
+console.log(object)
+// added object and console.log(object) for added function
+
 //console.log(obj.property); // TypeError: Cannot read property 'property' of undefined
 
 // 5. Incorrect Object Concatenation
@@ -48,10 +61,11 @@ Instructions:
     * Remember that the console.log() function can take multiple arguments, and will display them all.
 */
 const user = {
-  name: "John",
-  age: 30,
+    name: "John",
+    age: 30,
 };
-
+console.log(.name)
+// added console.log(.name) for added function
 //console.log("User info: " + user); // Output: User info: [object Object]
 
 // 6. Casting Failure (Incorrect Type Conversion)

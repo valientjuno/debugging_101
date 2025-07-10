@@ -1,5 +1,5 @@
 p {
-  font-size: larger; /* corrected typo of misspelled largeer */
+  font-size: larger;
 }
 
 h1 {
@@ -11,8 +11,6 @@ h1 {
   color: red;
   width: 500px;
   height: 500px;
-  /* background should be the same as #output
-  ||corrected background color to match output||corrected misspelling of color from colro */
   background-color: #f0f0f0;
 }
 
@@ -26,4 +24,3 @@ h1 {
   border: 1px solid #000;
   background-color: #f0f0f0;
 }
-/* padding had been misspelled in output and was corrected */
