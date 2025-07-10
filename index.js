@@ -42,8 +42,8 @@ Instructions:
     * Make sure the variable has been assigned an object before you attempt to access its properties.
     * If you expect the variable to hold an object, you may need to add code that assigns an object to the variable.
 */
-let obj = property;
-console.log(obj.property); // TypeError: Cannot read property 'property' of undefined
+let obj;
+//console.log(obj.property); // TypeError: Cannot read property 'property' of undefined
 
 // 5. Incorrect Object Concatenation
 /*
