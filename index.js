@@ -42,8 +42,11 @@ Instructions:
     * Make sure the variable has been assigned an object before you attempt to access its properties.
     * If you expect the variable to hold an object, you may need to add code that assigns an object to the variable.
 */
-let obj;
-//console.log(obj.property); // TypeError: Cannot read property 'property' of undefined
+
+let obj = "drink";
+console.log(obj);
+
+// TypeError: Cannot read property 'property' of undefined
 
 // 5. Incorrect Object Concatenation
 /*
@@ -53,12 +56,17 @@ Instructions:
     * Consider using template literals or `JSON.stringify()` to create a string representation of the object.
     * Remember that the console.log() function can take multiple arguments, and will display them all.
 */
+
 const user = {
-  name: "John",
-  age: 30,
+  name: "JD",
+  age: 34,
 };
 
-//console.log("User info: " + user); // Output: User info: [object Object]
+const { name, age } = user;
+
+console.log(user);
+
+// Output: User info: [object Object]
 
 // 6. Casting Failure (Incorrect Type Conversion)
 /*
@@ -69,5 +77,9 @@ Instructions:
     * Use functions like `parseInt()` or `parseFloat()` to convert strings to numbers.
     * Be aware that if the string that is being converted to a number, is not a number, then the result will be NaN.
 */
+
 let num = "10";
-//console.log(num + 5); // "105"
+const addNums = ((num1 = 100), (num2 = 5));
+console.log(num + 5);
+
+// "105"
